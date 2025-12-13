@@ -392,4 +392,6 @@ El resto de componentes identificados:
 
 1. Se logró diseñar e implementar funciones booleanas simplificadas mediante mapas de Karnaugh, optimizando el circuito combinacional y permitiendo que ambos displays mostraran correctamente las letras requeridas, cumpliendo plenamente el propósito de visualización digital del proyecto.
 2. Se fabricaron e integraron compuertas lógicas básicas utilizando transistores y resistencias, combinándolas con compuertas TTL. Esto permitió comprobar en la práctica el funcionamiento de un sistema híbrido de lógica digital y reforzó el entendimiento del comportamiento de cada tipo de compuerta.
+
 3. La simplificación booleana aplicada redujo significativamente el número de compuertas y conexiones necesarias. Esto dio como resultado un circuito más eficiente, ordenado y confiable, demostrando la importancia de los mapas de Karnaugh en el diseño digital.
+
