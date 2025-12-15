@@ -11,6 +11,8 @@ ESTRUCTURA QUE DEBEMOS TENER:
 - APORTES INDIVIDUALES (PENDIENTE)
 - REFERENCIAS BIBLIO (LISTO)
 
+PARA EL VIDEO, ORDEN:
+Presentación del grupo (por mario) y explicacion de la practica (pendiente) -> Demostracion del simulador y progra componente a componente (pendientes) -> se muestra el armado y prueba en fisico (listo) -> se repite con el resto -> Explicacion del codigo y simulador final (por mario, ya lo hizo) -> se muestra el armado de todo en fisico (pendiente) -> pruebas de los leds y luz (listo) -> muestra final usando processing (pendiente)
 
 # Marco teórico
 
