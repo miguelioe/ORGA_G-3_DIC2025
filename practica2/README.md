@@ -1,11 +1,11 @@
 ESTRUCTURA QUE DEBEMOS TENER:
-- [ ] CARATULA
+- [x] CARATULA
 - [ ] INTRODUCCION
 - [x] OBJETIVOS
 - [x] MARCO TEORICO
 - [ ] EXPLICACION DEL SISTEMA
 - [ ] EXPLICACION DEL PROCESSING
-- [ ] LO DEL PRESUPUESTO
+- [x] LO DEL PRESUPUESTO
 - [ ] RESULTADOS
 - [ ] CONCLUSIONES
 - [ ] APORTES INDIVIDUALES
@@ -14,12 +14,43 @@ ESTRUCTURA QUE DEBEMOS TENER:
 PARA EL VIDEO, ORDEN:
 - [ ] Presentación del grupo y explicacion de la practica -> MARIO 
 - [ ] Demostracion del simulador y progra componente a componente
-- [X] se muestra el armado y prueba en fisico 
-- [X] se repite con el resto
-- [X] Explicacion del codigo y simulador final 
+- [x] se muestra el armado y prueba en fisico 
+- [x] se repite con el resto
+- [x] Explicacion del codigo y simulador final 
 - [ ] se muestra el armado de todo en fisico
 - [x] pruebas de los leds y luz
 - [ ] muestra final usando processing
+
+---
+
+Universidad San Carlos de Guatemala
+
+Facultad de Ingeniería
+
+Ingeniería en Ciencias y Sistemas
+
+Organización Computacional
+
+Escuela de vacaciones diciembre 2025
+
+Ing. Carlos Alberto Arias López
+
+Aux. Dilan Conaher Suy Miranda
+
+**Práctica 2:**
+**Medidor de temperatura, humedad y nivel de luz**
+
+Integrantes:
+
+- Jose Brayan Arnoldo Murcia López - 3374570262004
+- Abner Emanuel Garcia Sandoval - 2791049521905
+- Mario Miguel López Sagastume - 3388185962011
+- Alejandro José Salazar Ramirez - 3506308361904
+- Julio René Morales Posadas - 2977547932008
+
+Guatemala, 17 de diciembre del 2025
+
+---
 
 # Objetivos
 ## General
