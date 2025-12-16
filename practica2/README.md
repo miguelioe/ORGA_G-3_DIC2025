@@ -15,7 +15,7 @@ PARA EL VIDEO, ORDEN:
 - [ ] Presentación del grupo y explicacion de la practica -> MARIO 
 - [ ] Demostracion del simulador y progra componente a componente
 - [X] se muestra el armado y prueba en fisico 
-- [x] se repite con el resto
+- [X] se repite con el resto
 - [X] Explicacion del codigo y simulador final 
 - [ ] se muestra el armado de todo en fisico
 - [x] pruebas de los leds y luz
@@ -91,6 +91,21 @@ Desarrollar en los estudiantes el conocimiento y la capacidad para diseñar e im
 - Facilita la depuración del programa.
 - Ayuda a verificar el correcto funcionamiento de sensores y actuadores.
 - Es fundamental en proyectos de monitoreo ambiental.
+
+---
+
+# Materiales utilizados y presupuesto
+|Nombre|Precio(Q)|Cantidad|Total(Q)|
+|:-:|:-:|:-:|:-:|
+|Arduino Uno|150.00|1|150.00|
+|Sensor de luz LDR|16.00|1|16.00|
+|Sensor de humedad y temperatura DHT11|25.00|1|25.00|
+|Buzzer|11.00|1|11.00|
+|Resistencias de diversos valores|1.50|3|7.50|
+|Cables de red recortados y adaptados|3.00|1|3.00|
+|Leds diversos colores|1.00|3|3.00|
+|Protoboard|70.00|1|70.00|
+|**Total (Q)**|||285.50|
 
 ---
 
