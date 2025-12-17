@@ -12,12 +12,12 @@ ESTRUCTURA QUE DEBEMOS TENER:
 - [x] REFERENCIAS BIBLIOGRÁFICAS
 
 PARA EL VIDEO, ORDEN:
-- [ ] Presentación del grupo y explicacion de la practica -> MARIO 
+- [x] Presentación del grupo y explicacion de la practica -> MARIO 
 - [ ] Demostracion del simulador y progra componente a componente
 - [x] se muestra el armado y prueba en fisico 
 - [x] se repite con el resto
 - [x] Explicacion del codigo y simulador final 
-- [ ] se muestra el armado de todo en fisico
+- [x] se muestra el armado de todo en fisico
 - [x] pruebas de los leds y luz
 - [ ] muestra final usando processing
 
@@ -53,11 +53,15 @@ Guatemala, 17 de diciembre del 2025
 ---
 
 # Objetivos
+
 ## General
 Desarrollar en los estudiantes el conocimiento y la capacidad para diseñar e implementar un sistema físico funcional de monitoreo ambiental, mediante el uso de sensores, herramientas de adquisición de datos y comunicación serial; permitiéndoles aplicar de manera práctica, conceptos fundamentales de sistemas embebidos, automatización y arquitectura de computadoras, fortaleciendo sus habilidades técnicas y su comprensión a los conocimientos necesarios para el funcionamiento de sistemas electrónicos reales.
+
 ## Específicos
 1. Identificar y comprender el funcionamiento de los sensores ambientales y los componentes electróncios para la adquisición de datos en un sistema de monitores ambiental.
+
 2. Diseñar e implementar un sistema embebido con la capacidad de adquirir, procesar y mostrar datos ambientales mediante comunicación serial, asegurando su correcto funcionamiento a nivel físico y también lógico.
+
 3. Aplicar conceptos fundamentales para sistemas embebidos y automatización para promover en los estudiantes conocimientos y habilidades con respecto a la integración de hardware y software.
 
 # Marco teórico
