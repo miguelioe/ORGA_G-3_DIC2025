@@ -1,6 +1,6 @@
 ESTRUCTURA QUE DEBEMOS TENER:
 - [x] CARATULA
-- [ ] INTRODUCCION
+- [x] INTRODUCCION
 - [x] OBJETIVOS
 - [x] MARCO TEORICO
 - [ ] EXPLICACION DEL SISTEMA
@@ -150,6 +150,15 @@ Desarrollar en los estudiantes el conocimiento y la capacidad para diseñar e im
 |Leds diversos colores|1.00|3|3.00|
 |Protoboard|70.00|1|70.00|
 |**Total (Q)**|||285.50|
+
+---
+
+# Resultados
+Durante el desarrollo y ejecución de la práctica de laboratorio se obtuvo un sistema de monitoreo ambiental completamente funcional, cumpliendo con los requerimientos establecidos en el enunciado. El sistema permitió la captura, transmisión y visualización en tiempo real de las variables ambientales: temperatura, humedad y nivel de luz.
+
+El sensor DHT11 proporcionó lecturas estables de temperatura y humedad ambiental dentro de su rango de operación. Las mediciones obtenidas fueron correctamente procesadas por el microcontrolador Arduino y transmitidas a través de comunicación serial a una velocidad de 9600 baudios, utilizando un formato de datos tipo CSV. Se comprobó que la validación de datos funcionó correctamente.
+
+Por otro lado, la fotorresistencia LDR permitió medir el nivel de iluminación ambiental mediante el conversor analógico-digital del Arduino, obteniendo valores entre 100 y 804 debido a la calibracion física del componente mismo, los cuales fueron normalizados a un porcentaje de 0 a 100. Estas lecturas reflejaron de forma consistente los cambios de luz en el entorno durante las pruebas realizadas.
 
 ---
 
