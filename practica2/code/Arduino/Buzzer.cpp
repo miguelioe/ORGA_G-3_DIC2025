@@ -1,20 +1,19 @@
 #include "Buzzer.h"
-/**
- * Crea instancia de buzzer y le añade un pin.
- */
-Buzzer::Buzzer(byte pin){
-    this->pin = pin;
+//Crea instrancia de buzzer y le añade un pin 
+Buzzer::Buzzer(byte pin) {
+  this->pin = pin;
 }
-/**
- * Inicializa el buzzer
- */
-void Buzzer::init(){
-    pinMode(pin, OUTPUT);
-    noTone(pin);
+//Inicializa buzzer
+void Buzzer::init() {
+  pinMode(pin, OUTPUT);
+  digitalWrite(pin, LOW);
 }
-/**
- * Enciende el buzzer a 1000Hz durante 200ms
- */
-void Buzzer::on(){
-    tone(pin,1000,200);
+//Enciende buzzer
+void Buzzer::on() {
+  digitalWrite(pin, HIGH);
+  tone(pin,1000,200);
+}
+//Apaga buzzer
+void Buzzer::off() {
+  digitalWrite(pin, LOW);
 }
