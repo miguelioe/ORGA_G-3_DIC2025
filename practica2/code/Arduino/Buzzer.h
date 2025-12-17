@@ -1,5 +1,6 @@
-#ifndef BUZZER_H
 #define BUZZER_H
+#define BUZZER_H
+
 #include <Arduino.h>
 
 class Buzzer{
@@ -10,8 +11,5 @@ class Buzzer{
         Buzzer(byte pin);
         void init();
         void on();
-
+        void off();  
 };
-
-
-#endif
