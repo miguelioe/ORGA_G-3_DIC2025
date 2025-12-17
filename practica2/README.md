@@ -179,10 +179,14 @@ Así también, la aplicación desarrollada en Processing mostró un funcionamien
 Los resultados obtenidos evidencian que el sistema cumple con los objetivos planteados, integrando de forma eficiente hardware y software para el monitoreo ambiental en tiempo real, demostrando la correcta aplicación de los conceptos de sistemas embebidos, comunicación serial y visualización gráfica interactiva.
 
 ## Circuito Emulado
-![Circuito_Emulado](CircuitoEmulado.jpeg)
+![Circuito_Emulado](/practica2/img/CircuitoEmulado.jpeg)
 
 ## Circuito Fisico
-![Circuito_Fisico](CircuitoFisico.jpeg)
+![Circuito_Fisico](/practica2/img/CircuitoFisico.jpeg)
+
+![Circuito_de_lado](/practica2/img/CircuitoLado.jpeg)
+
+![Circuito_por_atras](/practica2/img/circuitoAtras.png)
 
 ---
 
