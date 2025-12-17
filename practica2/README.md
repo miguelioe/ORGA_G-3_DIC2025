@@ -140,6 +140,11 @@ Desarrollar en los estudiantes el conocimiento y la capacidad para diseñar e im
 
 ---
 
+# Conclusiones.
+1. Se alcanzó a identificar y comprender el funcionamiento de los sensores ambientales. En este caso utilizando el sensor de temperatura, humedad, calidad del aire y luminosidad; así como integración física de estos componentes con herramientas para la lectura de estos datos. Esta comprensión es fundamental para seleccionar los componentes adecuados y garantizar mediciones válidas en cualquier sistema de monitoreo.
+2. A través del diseño e implementación de un sistema embebido, se consiguió adquirir, procesar y visualizar datos ambientales a través de comunicación serial y también de forma gráfica. Fue necesario una estricta verificación de forma física como también lógica para obtener un correcto funcionamiento del sistema.
+3. Como finalidad de este proyecto, se aplicaron conceptos fundamentales de sistemas embebidos y automatización, integrando hardware(sensores y componentes), como verificación física(conexiones, alimentación, integridad de las señales) y razonamiento lógico(programación, protocolos, procesamiento de datos) de manera coherente y colaborativa. Esto permitió fortalecer en los estudiantes las habilidades prácticas y teóricas necesarias para desarrollar soluciones tecnológicas que respondan a situaciones reales, promoviendo una vision integral del diseño de sistemas automatizados.
+
 # Referencias bibliográficas
 
 - Arduino. (s.f.). *Arduino Reference*. https://www.arduino.cc/reference/en/
