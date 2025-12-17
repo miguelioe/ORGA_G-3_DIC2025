@@ -3,7 +3,7 @@ ESTRUCTURA QUE DEBEMOS TENER:
 - [x] INTRODUCCION
 - [x] OBJETIVOS
 - [x] MARCO TEORICO
-- [ ] EXPLICACION DEL SISTEMA
+- [x] EXPLICACION DEL SISTEMA
 - [ ] EXPLICACION DEL PROCESSING
 - [x] LO DEL PRESUPUESTO
 - [ ] RESULTADOS
@@ -12,7 +12,7 @@ ESTRUCTURA QUE DEBEMOS TENER:
 - [x] REFERENCIAS BIBLIOGRÁFICAS
 
 PARA EL VIDEO, ORDEN:
-- [x] Presentación del grupo y explicacion de la practica -> MARIO 
+- [x] Presentación del grupo y explicacion de la practica
 - [ ] Demostracion del simulador y progra componente a componente
 - [x] se muestra el armado y prueba en fisico 
 - [x] se repite con el resto
@@ -137,7 +137,29 @@ Desarrollar en los estudiantes el conocimiento y la capacidad para diseñar e im
 - Es fundamental en proyectos de monitoreo ambiental.
 
 ---
+# Explicación del sistema
 
+  El sistema consiste en los siguientes componentes y microcontroladores:
+
+  - Sensor detector de temperatura y humedad DHT11.
+  - Fotorresistencia LDR lm393.
+  - Buzzer piezoeléctrico.
+  - Leds.
+  - Arduino UNO
+
+  Usando el sensor DHT11 y la fotorresistencia LDR se deben tomar los datos del entorno, tales como temperatura, humedad y la cantidad de luz del entorno, para posteriormente enviar los datos recaudados a una placa de pruebas Arduino UNO, que debe recibir los datos y procesarlos.
+  
+  El procesamiento de los datos del sensor DHT11 se hace mediante el uso de la librería DHT.h, que permite directamente recaudar la información de temperatura en grados Celsius y el porcentaje de humedad en el entorno.
+
+  Para la fotorresistencia LDR se obtiene el dato mediante un puerto analógico y recibe los valores de 0 a 1023, para luego usar un mapeo para convertir los valores de continuo a porcentaje, para mostrar el valor de la luz en porcentaje.
+
+  Al obtener los datos se debe de reflejar el cambio de temperatura mediante el uso de distintos diodos leds de colores, usando un led de color verde para representar una temperatura menor a 25 grados Celsius, uno amarillo para representar una temperatura entre 25 a 30 grados Celsius, y uno rojo para representar una temperatura mayor a 30 grados Celsius, además, al momento de encender el led rojo se enciende a la vez un buzzer piezoeléctrico con una frecuencia de 1000hz.
+
+  Los datos obtenidos mediante los sensores a su vez son enviados mediante el puerto Serial a la computadora, estos son obtenidos como CSV y utilizados para hacer un entorno de usuario gráfico usando la herramienta gratuita Processing.
+
+  En Processing se debe mostrar tres gráficas de barras para mostrar los cambios en temperatura, humedad y luz; además de indicadores de gauge para mostrar la cantidad de estos tres valores. Finalmente el programa debe mostrar alertas al momento de que la temperatura alcanza los 30 grados Celsius o más.
+
+---
 # Materiales utilizados y presupuesto
 |Nombre|Precio(Q)|Cantidad|Total(Q)|
 |:-:|:-:|:-:|:-:|
