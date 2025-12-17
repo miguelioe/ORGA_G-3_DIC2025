@@ -214,7 +214,7 @@ Los resultados obtenidos evidencian que el sistema cumple con los objetivos plan
 
 ---
 
-## Aportes individuales
+# Aportes individuales
 
 - **José Murcia:**  
   Se encargó del uso de la fotorresistencia LDR, desarrollando código de prueba para verificar su funcionamiento tanto en simulación como en la práctica. Además, fue responsable de la obtención del Arduino utilizado en el proyecto.
