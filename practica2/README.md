@@ -135,6 +135,34 @@ Desarrollar en los estudiantes el conocimiento y la capacidad para diseñar e im
   En Processing se debe mostrar tres gráficas de barras para mostrar los cambios en temperatura, humedad y luz; además de indicadores de gauge para mostrar la cantidad de estos tres valores. Finalmente el programa debe mostrar alertas al momento de que la temperatura alcanza los 30 grados Celsius o más.
 
 ---
+# Explicación del Processing
+
+## ¿Qué es Processing?
+Processing es un lenguaje de programación y entorno de desarrollo integrado (IDE) de código abierto, diseñado específicamente para la creación de visualizaciones, animaciones y aplicaciones gráficas interactivas. Fue creado en el MIT Media Lab por Casey Reas y Ben Fry, con el objetivo de hacer la programación gráfica accesible a artistas, diseñadores y educadores.
+
+## Características principales de Processing
+1. *Sintaxis simplificada*: Basada en Java, pero con funciones simplificadas para gráficos
+2. *Gráficos en tiempo real*: Capacidad nativa para renderizado rápido
+3. *Comunidad activa*: Miles de librerías y ejemplos disponibles
+4. *Multiplataforma*: Funciona en Windows, macOS y Linux
+5. *Open source y gratuito*: Ideal para proyectos académicos
+
+## ¿Por qué elegimos Processing para este proyecto?
+Processing fue seleccionado para nuestro sistema de monitoreo ambiental por las siguientes razones:
+
+### Ventajas técnicas:
+1. *Conexión serial nativa*: La librería processing.serial permite comunicación directa con Arduino
+2. *Gráficos en tiempo real*: Capacidad para actualizar visualizaciones a 60 FPS
+3. *Facilidad de prototipado*: Desarrollo rápido de interfaces gráficas
+4. *Exportación multiplataforma*: El mismo código funciona en todos los sistemas operativos
+
+### Aplicación en nuestro proyecto:
+En nuestro sistema, Processing cumple la función de *dashboard de visualización en tiempo real*, recibiendo los datos enviados por Arduino vía puerto serial y presentándolos de manera intuitiva y profesional.
+
+## Captura del dashboard en funcionamiento
+![Dashboard_Processing](/practica2/img/DashboardMonitoreoAmbiental.jpg)
+
+---
 # Materiales utilizados y presupuesto
 |Nombre|Precio(Q)|Cantidad|Total(Q)|
 |:-:|:-:|:-:|:-:|
