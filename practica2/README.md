@@ -7,8 +7,8 @@ ESTRUCTURA QUE DEBEMOS TENER:
 - [ ] EXPLICACION DEL PROCESSING
 - [x] LO DEL PRESUPUESTO
 - [ ] RESULTADOS
-- [ ] CONCLUSIONES
-- [ ] APORTES INDIVIDUALES
+- [x] CONCLUSIONES
+- [x] APORTES INDIVIDUALES
 - [x] REFERENCIAS BIBLIOGRÁFICAS
 
 PARA EL VIDEO, ORDEN:
@@ -38,7 +38,7 @@ Ing. Carlos Alberto Arias López
 Aux. Dilan Conaher Suy Miranda
 
 **Práctica 2:**
-**Medidor de temperatura, humedad y nivel de luz**
+**Monitoreo Ambiental**
 
 Integrantes:
 
@@ -140,10 +140,35 @@ Desarrollar en los estudiantes el conocimiento y la capacidad para diseñar e im
 
 ---
 
-# Conclusiones.
-1. Se alcanzó a identificar y comprender el funcionamiento de los sensores ambientales. En este caso utilizando el sensor de temperatura, humedad, calidad del aire y luminosidad; así como integración física de estos componentes con herramientas para la lectura de estos datos. Esta comprensión es fundamental para seleccionar los componentes adecuados y garantizar mediciones válidas en cualquier sistema de monitoreo.
-2. A través del diseño e implementación de un sistema embebido, se consiguió adquirir, procesar y visualizar datos ambientales a través de comunicación serial y también de forma gráfica. Fue necesario una estricta verificación de forma física como también lógica para obtener un correcto funcionamiento del sistema.
-3. Como finalidad de este proyecto, se aplicaron conceptos fundamentales de sistemas embebidos y automatización, integrando hardware(sensores y componentes), como verificación física(conexiones, alimentación, integridad de las señales) y razonamiento lógico(programación, protocolos, procesamiento de datos) de manera coherente y colaborativa. Esto permitió fortalecer en los estudiantes las habilidades prácticas y teóricas necesarias para desarrollar soluciones tecnológicas que respondan a situaciones reales, promoviendo una vision integral del diseño de sistemas automatizados.
+# Conclusiones
+1. Se logró diseñar e implementar un sistema físico funcional de monitoreo ambiental mediante el uso de sensores de temperatura, humedad y nivel de luz. La integración de la parte teórica y práctica permitió aplicar correctamente conceptos de sistemas embebidos, automatización y arquitectura de computadoras. Asimismo, el proyecto fortaleció las habilidades técnicas de los estudiantes y su comprensión del funcionamiento de sistemas electrónicos reales.
+
+2. Se alcanzó a identificar y comprender el funcionamiento de los sensores ambientales. En este caso utilizando el sensor de temperatura, humedad, calidad del aire y luminosidad; así como integración física de estos componentes con herramientas para la lectura de estos datos. Esta comprensión es fundamental para seleccionar los componentes adecuados y garantizar mediciones válidas en cualquier sistema de monitoreo.
+
+3. A través del diseño e implementación de un sistema embebido, se consiguió adquirir, procesar y visualizar datos ambientales a través de comunicación serial y también de forma gráfica. Fue necesario una estricta verificación de forma física como también lógica para obtener un correcto funcionamiento del sistema.
+
+4. Como finalidad de este proyecto, se aplicaron conceptos fundamentales de sistemas embebidos y automatización, integrando hardware(sensores y componentes), como verificación física(conexiones, alimentación, integridad de las señales) y razonamiento lógico(programación, protocolos, procesamiento de datos) de manera coherente y colaborativa. Esto permitió fortalecer en los estudiantes las habilidades prácticas y teóricas necesarias para desarrollar soluciones tecnológicas que respondan a situaciones reales, promoviendo una vision integral del diseño de sistemas automatizados.
+
+---
+
+## Aportes individuales
+
+- **José Murcia:**  
+  Se encargó del uso de la fotorresistencia LDR, desarrollando código de prueba para verificar su funcionamiento tanto en simulación como en la práctica. Además, fue responsable de la obtención del Arduino utilizado en el proyecto.
+
+- **Abner García:**  
+  Fue responsable de las pruebas del buzzer, realizando investigación previa sobre el componente y ejecutando pruebas en el montaje físico. También aportó trabajo teórico relevante para el desarrollo del sistema.
+
+- **Mario López:**  
+  Se encargó de la integración y reformulación de los códigos mediante programación orientada a objetos, permitiendo el correcto funcionamiento del proyecto. Tuvo un rol clave en la investigación y adquisición de componentes, así como en el desarrollo teórico y la organización del repositorio en Git.
+
+- **Alejandro Salazar:**  
+  Fue responsable del sensor DHT11, preparando el código y la simulación correspondiente. Además, se encargó de la adquisición y recepción de los componentes, realizó aportes teóricos y lideró la mayor parte de la grabación del video del proyecto.
+
+- **Julio Morales:**  
+  Se encargó del funcionamiento de los LEDs y desarrolló casi en su totalidad el sistema en Processing, siendo una pieza clave en el aspecto teórico del proyecto junto con Mario López.
+
+---
 
 # Referencias bibliográficas
 
